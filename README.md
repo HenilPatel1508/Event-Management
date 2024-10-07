@@ -36,7 +36,7 @@ Introducing our Event Management System, a solution developed as part of our fin
 4. Create a .env file in the root directory with the following content, and replace placeholders with your own values. <br>
      MONGODB_URI=mongodb://localhost/your-database-name
 5. Start the server.<br>
-     **ems/api:** nodemon start<br>
+     **ems/api:** npm start<br>
      if the command is not working use **PowerShell -ExecutionPolicy Bypass nodemon** this command.
 7. Start the Client:<br>
       **ems/client:** npm run dev
